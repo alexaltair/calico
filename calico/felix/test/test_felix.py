@@ -118,7 +118,7 @@ class TestBasic(unittest.TestCase):
         stub_fiptables.check_state(expected_iptables)
         stub_ipsets.check_state(expected_ipsets)
 
-        self.assertEqual(agent.hostname, "test_hostname")
+        self.assertEqual(agent.hostname, "test_hostnamez")
 
     def test_no_work(self):
         """
