@@ -1,3 +1,5 @@
+[![Build Status](https://api.shippable.com/projects/54d275965ab6cc13528ad353/badge?branchName=master)](https://app.shippable.com/projects/54d275965ab6cc13528ad353/builds/latest)
+
 # Project Calico
 
 Calico represents a new approach to virtual networking, based on the same
