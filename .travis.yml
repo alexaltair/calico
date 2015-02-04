@@ -8,6 +8,5 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
 script:
-  - nosetests --with-xunit --xunit-file=shippable/testresults/nosetests.xml
-  - coverage run --branch
+  - nosetests --with-coverage --with-xunit --xunit-file=shippable/testresults/nosetests.xml
   - coverage xml -o shippable/codecoverage/coverage.xml
